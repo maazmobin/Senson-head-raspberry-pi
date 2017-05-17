@@ -8787,12 +8787,13 @@ Source: 3M</description>
 <wire x1="93.98" y1="90.17" x2="93.98" y2="92.71" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="92.71" x2="93.98" y2="95.25" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="95.25" x2="93.98" y2="97.79" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="97.79" x2="81.28" y2="97.79" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="97.79" x2="82.55" y2="97.79" width="0.1524" layer="91"/>
 <pinref part="J9" gate="G$1" pin="7"/>
 <wire x1="82.55" y1="95.25" x2="93.98" y2="95.25" width="0.1524" layer="91"/>
 <pinref part="J9" gate="G$1" pin="6"/>
 <wire x1="82.55" y1="92.71" x2="93.98" y2="92.71" width="0.1524" layer="91"/>
 <label x="93.98" y="97.79" size="1.778" layer="95" xref="yes"/>
+<pinref part="J9" gate="G$1" pin="8"/>
 </segment>
 <segment>
 <pinref part="X3" gate="-7" pin="KL"/>
