@@ -6840,6 +6840,11 @@ general purpose rectifier, 1 A</description>
 <wire x1="64.77" y1="92.71" x2="54.61" y2="92.71" width="0.1524" layer="91"/>
 <label x="54.61" y="97.79" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="B2" gate="G$1" pin="1"/>
+<wire x1="332.74" y1="57.15" x2="325.12" y2="57.15" width="0.1524" layer="91"/>
+<label x="325.12" y="57.15" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -7750,13 +7755,6 @@ general purpose rectifier, 1 A</description>
 <pinref part="UT6" gate="G$1" pin="P$4"/>
 <wire x1="513.08" y1="91.44" x2="508" y2="91.44" width="0.1524" layer="91"/>
 <label x="508" y="90.17" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="GND1" class="0">
-<segment>
-<pinref part="B2" gate="G$1" pin="1"/>
-<wire x1="332.74" y1="57.15" x2="325.12" y2="57.15" width="0.1524" layer="91"/>
-<label x="325.12" y="57.15" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CE0" class="0">

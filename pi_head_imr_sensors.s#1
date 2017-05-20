@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5680,10 +5680,10 @@ Based on the datasheets for the following products.&lt;br&gt;
 <wire x1="-2.54" y1="5.08" x2="-8.89" y2="4.445" width="0.127" layer="21"/>
 <wire x1="-8.89" y1="4.445" x2="-8.89" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-8.89" y1="1.27" x2="-2.54" y2="0.635" width="0.127" layer="21"/>
-<pad name="VBUS" x="2.7178" y="3.4925" drill="0.9144" rot="R270"/>
+<pad name="VBUS" x="2.7178" y="3.4925" drill="0.9144" diameter="1.6764" shape="octagon" rot="R270"/>
 <pad name="D-" x="2.7178" y="1.0033" drill="0.9144" rot="R270"/>
 <pad name="D+" x="2.7178" y="-1.0033" drill="0.9144" rot="R270"/>
-<pad name="GND" x="2.7178" y="-3.4925" drill="0.9144" rot="R270"/>
+<pad name="GND" x="2.7178" y="-3.4925" drill="0.9144" diameter="1.6764" shape="octagon" rot="R270"/>
 <pad name="P$5" x="0" y="-6.5659" drill="2.3114" rot="R270"/>
 <pad name="P$6" x="0" y="6.5659" drill="2.3114" rot="R270"/>
 <text x="5.715" y="3.81" size="1.27" layer="25" rot="R90">&gt;NAME</text>
@@ -7656,16 +7656,16 @@ Source: 3M</description>
 <wire x1="8.875" y1="-3.275" x2="1.883" y2="-3.275" width="0.2032" layer="21"/>
 <wire x1="-1.883" y1="-3.275" x2="-8.875" y2="-3.275" width="0.2032" layer="21"/>
 <wire x1="-8.875" y1="-3.275" x2="-8.875" y2="3.275" width="0.2032" layer="21"/>
-<pad name="1" x="-5.08" y="-1.27" drill="1" diameter="1.4224"/>
-<pad name="2" x="-5.08" y="1.27" drill="1" diameter="1.4224"/>
-<pad name="3" x="-2.54" y="-1.27" drill="1" diameter="1.4224"/>
-<pad name="4" x="-2.54" y="1.27" drill="1" diameter="1.4224"/>
-<pad name="5" x="0" y="-1.27" drill="1" diameter="1.4224"/>
-<pad name="6" x="0" y="1.27" drill="1" diameter="1.4224"/>
-<pad name="7" x="2.54" y="-1.27" drill="1" diameter="1.4224"/>
-<pad name="8" x="2.54" y="1.27" drill="1" diameter="1.4224"/>
-<pad name="9" x="5.08" y="-1.27" drill="1" diameter="1.4224"/>
-<pad name="10" x="5.08" y="1.27" drill="1" diameter="1.4224"/>
+<pad name="1" x="-5.08" y="-1.27" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="-5.08" y="1.27" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="-2.54" y="-1.27" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="4" x="-2.54" y="1.27" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="5" x="0" y="-1.27" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="6" x="0" y="1.27" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="7" x="2.54" y="-1.27" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="8" x="2.54" y="1.27" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="9" x="5.08" y="-1.27" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="10" x="5.08" y="1.27" drill="1" diameter="1.6764" shape="octagon"/>
 <text x="-10.16" y="4.572" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="4.572" size="1.27" layer="27">&gt;VALUE</text>
 </package>
